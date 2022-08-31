@@ -4,7 +4,7 @@ function getTodos() {
     method: "get",
     url: "https://jsonplaceholder.typicode.com/todos",
     params: {
-      _limit: 5, // its like add "?_limit=5" to the link
+      _limit: 5, // its like add "?_limit=5" to the links
     },
   })
     .then((res) => showOutput(res))
